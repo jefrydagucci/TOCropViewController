@@ -336,5 +336,10 @@ typedef NS_ENUM(NSInteger, TOCropViewControllerToolbarPosition) {
                                           setup:(nullable void (^)(void))setup
                                      completion:(nullable void (^)(void))completion;
 
+/**
+ Tap done button
+ */
+- (void)doneButtonTapped;
+
 @end
 
